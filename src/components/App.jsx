@@ -1,12 +1,14 @@
 import React from "react";
-import Navigation from "./Navigation Bar";
 import Content from "./Body";
+import Footer from "./Footer";
+import Header from "./Header";
 
 function App() {
   return (
     <div>
-      <Navigation />
+      <Header />
       <Content />
+      <Footer />
     </div>
   );
 }

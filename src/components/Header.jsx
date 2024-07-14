@@ -1,6 +1,6 @@
 import { React } from "react";
 
-function Navigation() {
+function Header() {
   return (
     <header>
       <ul className="nav">
@@ -18,4 +18,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Header;

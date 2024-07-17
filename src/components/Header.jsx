@@ -5,13 +5,15 @@ function Header() {
     <header>
       <ul className="nav">
         <li>
-          <a href="https://example.com">About</a>
+          <a href="https://example.com">About Me </a>
         </li>
+        /
         <li>
-          <a>Exhibit B</a>
+          <a>Project</a>
         </li>
+        /
         <li>
-          <a>Exhibit C</a>
+          <a>Contact</a>
         </li>
       </ul>
     </header>

@@ -1,4 +1,5 @@
 import React from "react";
+import InlineSVG from "react-inlinesvg";
 
 function Footer() {
   return (
@@ -7,9 +8,18 @@ function Footer() {
         <div className="footer-note">Designed and built by NOR AIMAN</div>
         <div className="footer-link">
           <ul>
-            <li>Github</li>
-            <li>Linkedin</li>
-            <li>Email</li>
+            <li>
+              <InlineSVG className="icon" src="github-142-svgrepo-com.svg" />
+            </li>
+            <li>
+              <InlineSVG className="icon" src="linkedin-svgrepo-com.svg" />
+            </li>
+            <li>
+              <InlineSVG
+                className="icon"
+                src="email-envelope-letter-mail-message-svgrepo-com.svg"
+              />
+            </li>
           </ul>
         </div>
       </div>

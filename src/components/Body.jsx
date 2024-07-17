@@ -4,7 +4,7 @@ function Content() {
   return (
     <body>
       <div className="content">
-        <h1 className="content-greet">Greetings! 👋</h1>
+        <h1 className="content-greet">GREETINGS! 👋</h1>
         <p className="content-introduction">
           I'm
           <span className="content-name"> Nor Aiman Akashah</span>, an aspiring

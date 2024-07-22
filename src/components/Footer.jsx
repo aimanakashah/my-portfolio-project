@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer">
-        <div className="footer-note">Designed and built by NOR AIMAN</div>
+        <div className="footer-note">Designed and built by NOR AIMAN @2024</div>
         <div className="footer-link">
           <ul>
             <li>
